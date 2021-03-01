@@ -89,9 +89,8 @@ go to: http://localhost:8888/.netlify/functions/async-dadjoke
 Because we are fetching from localhost 9000 from origin 3000, it has been blocked by CORS policy. We can fix this by building our own proxy
 * [cra docs - build a proxy](https://create-react-app.dev/docs/proxying-api-requests-in-development/)
 * See Configuring the Proxy Manually
-  * ```npm install http-proxy-middleware --save
-# or
-yarn add http-proxy-middleware```
+  * for npm```npm install http-proxy-middleware --save```
+  * for yarn```yarn add http-proxy-middleware```
 
 #### DO NOT need proxy when deployed to Netlify
 Because it will all be on the same server
