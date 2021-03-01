@@ -31,6 +31,8 @@ class LambdaDemo extends Component {
   }
 }
 
+
+//UI component
 class App extends Component {
   render() {
     return (
