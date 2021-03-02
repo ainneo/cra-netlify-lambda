@@ -102,5 +102,7 @@ Because it will all be on the same server
   * ```yarn add netlify-lambda```
 * add netlify.toml and lamba build script
 * create a lambda folder inside the src folder
-  * create your lambda function 
+  * create your lambda function (see docs to create function)
 * run ```npm run lambda``` this generates the build-lambda folder and functions (THIS FOLDER IS YOUR BACK END)
+* ping/test your backend via  http://localhost:8888/.netlify/functions/name-of-file
+* if all is okay then connect your front and back together
