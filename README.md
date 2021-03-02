@@ -96,7 +96,7 @@ Because we are fetching from localhost 9000 from origin 3000, it has been blocke
 Because it will all be on the same server
 
 
-### Inital Setup  (I need to add a backend without adding a VPN, how do I do it? NETLIFY!)
+### Inital Setup  (I need to add a backend without adding a VPN, how do I do it? NETLIFY LAMBDA FUNCTS!)
 * install CRA
 * install netlify lambda [see docs](https://github.com/sw-yx/netlify-lambda)
   * ```yarn add netlify-lambda```
