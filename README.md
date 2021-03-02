@@ -70,10 +70,10 @@ For a full demo of routing and authentication, check this branch: https://github
 
 ### Inital Setup  (I need to add a backend without adding a VPN, how do I do it? NETLIFY)
 * install CRA
-* install netlify lambda [docs](https://github.com/sw-yx/netlify-lambda)
- * ```yarn add netlify-lambda```
+* install netlify lambda [see docs](https://github.com/sw-yx/netlify-lambda)
+  * ```yarn add netlify-lambda```
 * create a lambda folder inside the src folder
- * create your lambda function 
+  * create your lambda function 
 
 ### For building netlify functions please read docs
 [netlify functions doc](https://docs.netlify.com/functions/build-with-javascript/)
