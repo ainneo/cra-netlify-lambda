@@ -65,22 +65,15 @@ For a full demo of routing and authentication, check this branch: https://github
 * lambda (recommended to use async handler over callback)
   * async-dadjokes - async handler using async-await example
   * hello.js - the callback syntax example
-* built lambda - generated via CLI
+* built-lambda - generated via CLI cia ```npm run lambda``` 
 * netlify.toml - netlify config file
-
-### Inital Setup  (I need to add a backend without adding a VPN, how do I do it? NETLIFY)
-* install CRA
-* install netlify lambda [see docs](https://github.com/sw-yx/netlify-lambda)
-  * ```yarn add netlify-lambda```
-* create a lambda folder inside the src folder
-  * create your lambda function 
 
 ### For building netlify functions please read docs
 [netlify functions doc](https://docs.netlify.com/functions/build-with-javascript/)
 
 ### Must Add Startup Script
 Go to package.json folder and add in scripts:
-* ``` "build:lambda": "netlify-lambda build src/lambda" ```
+* ``` "lambda": "netlify-lambda build src/lambda" ```
 
 ### Must Create the netlify.toml file
 You can pull example from the docs and customize
@@ -102,3 +95,12 @@ Because we are fetching from localhost 9000 from origin 3000, it has been blocke
 #### DO NOT need proxy when deployed to Netlify
 Because it will all be on the same server
 
+
+### Inital Setup  (I need to add a backend without adding a VPN, how do I do it? NETLIFY!)
+* install CRA
+* install netlify lambda [see docs](https://github.com/sw-yx/netlify-lambda)
+  * ```yarn add netlify-lambda```
+* add netlify.toml and lamba build script
+* create a lambda folder inside the src folder
+  * create your lambda function 
+* run ```npm run lambda``` this creates the build-lambda folder (THIS FOLDER IS YOUR BACK END)
