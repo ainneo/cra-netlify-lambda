@@ -64,7 +64,9 @@ For a full demo of routing and authentication, check this branch: https://github
 `create-react-app`'s default service worker (in `src/index.js`) does not work with lambda functions out of the box. It prevents calling the function and returns the app itself instead ([Read more](https://github.com/facebook/create-react-app/issues/2237#issuecomment-302693219)). To solve this you have to eject and enhance the service worker configuration in the webpack config. Whitelist the path of your lambda function and you are good to go.
 
 
-## My Notes for Setup
+
+# My Notes for Setup
+The original details from the previous authors were a bit confusing for me and took a couple of days to understand. All you have to do is push the deploy button, and it will automatically set up your netlify site and a new git repo for you. From there you can clone that new repo to your local and then remove everything you don't need and begin setting up your site and customizing your lamba functions.
 
 ### Files/Folders 
 * lambda (recommended to use async handler over callback)
