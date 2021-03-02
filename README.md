@@ -95,3 +95,10 @@ Because we are fetching from localhost 9000 from origin 3000, it has been blocke
 #### DO NOT need proxy when deployed to Netlify
 Because it will all be on the same server
 
+#### Setup  (I need to add a backend without adding a VPN, how do I do it? NETLIFY)
+* install CRA
+* install netlify lambda [docs](https://github.com/sw-yx/netlify-lambda)
+ * ```yarn add netlify-lambda```
+* create a lambda folder inside the src folder
+ * create your lambda function 
+
