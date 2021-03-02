@@ -103,4 +103,4 @@ Because it will all be on the same server
 * add netlify.toml and lamba build script
 * create a lambda folder inside the src folder
   * create your lambda function 
-* run ```npm run lambda``` this creates the build-lambda folder (THIS FOLDER IS YOUR BACK END)
+* run ```npm run lambda``` this generates the build-lambda folder and functions (THIS FOLDER IS YOUR BACK END)
